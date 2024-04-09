@@ -1,0 +1,46 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+th, td {
+    width: 50px;
+    height: 40px;
+    text-align: center;  
+    width: 100px;
+}
+
+th {
+    background-color: rgb(173, 216, 230);
+}
+
+tr:nth-child(2n + 1) {
+    background-color: rgb(233, 233, 233);
+}
+/*tr:first-child {
+     background-color: red;
+}
+
+tr:last-child {
+    background-color: aqua;
+}
+
+td:first-child {
+    background-color: green;
+}
+
+tr:first-child {
+    color:aqua;
+}
+
+tr :first-child {
+    background-color: yellow;
+}
+
+tr:nth-child(2n+1) {
+    background-color: darkblue;
+} */
+

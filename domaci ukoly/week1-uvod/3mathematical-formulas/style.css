@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+}
+
+.Equation {
+    font-size: 20px;
+    background-color: rgb(255, 179, 179);
+    padding: 8px;
+    width: fit-content;
+    text-align: center;
+}
+
+.marked {
+    color: rgb(172, 8, 8);
+    font-weight: bold;
+    font-style: italic;
+}

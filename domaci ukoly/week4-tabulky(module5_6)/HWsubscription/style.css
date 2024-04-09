@@ -1,0 +1,135 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headliner {
+    text-align: center;
+    margin-top: 10px;
+}
+
+section {
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 30px 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 1000px;
+    margin-left: 60px;
+    text-align: center;
+    width: fit-content;
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+h3 {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.price {
+    font-size: 60px;
+}
+
+.per_month {
+    color: rgb(175, 174, 174);
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.sub_description {
+    font-weight: bold;
+}
+p {
+    padding-bottom: 30px;
+}
+
+section:hover {
+    transition-duration: 1s;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buy_red {
+    background-color: rgb(199, 55, 86);
+    color: white;
+    font-weight: normal;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
+
+.buy_orange {
+    background-color: rgb(215, 145, 59);
+    color: white;
+    font-weight: normal;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
+
+.buy_blue {
+    background-color: rgb(43, 102, 137);
+    color: white;
+    font-weight: normal;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
+
+.buy_green {
+    background-color: rgb(99, 187, 52);
+    color: white;
+    font-weight: normal;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
+
+.red_hr {
+    background-color: rgb(199, 55, 86)  ;
+    height: 4px;
+    width: 380px;
+}
+
+.orange_hr {
+    background-color: rgb(215, 145, 59);  ;
+    height: 4px;
+    width: 380px;
+}
+
+.blue_hr {
+    background-color: rgb(43, 102, 137);
+    height: 4px;
+    width: 380px;
+}
+
+.green_hr {
+    background-color: rgb(99, 187, 52);
+    height: 4px;
+    width: 380px;
+}

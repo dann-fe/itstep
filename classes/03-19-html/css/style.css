@@ -1,0 +1,20 @@
+h1 /*selektor*/ {
+    color: red;
+    background-color: orange;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.velky {
+    font-size: 20px;
+}
