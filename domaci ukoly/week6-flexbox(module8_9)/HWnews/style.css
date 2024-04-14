@@ -1,0 +1,148 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    background-color: rgb(168, 210, 224);
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    flex-direction: column;   
+}
+
+.image1 {
+    background-color: rgb(195, 195, 195);
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title1 {
+    background-color: white;
+    display: flex;
+    width: 300px;
+    margin-left: 10px; 
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.text1 {
+    background-color: white;
+    display: flex;
+    width: 300px;
+    margin-left: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.card2 {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+
+    
+}
+
+.image2 {
+    background-color: rgb(195, 195, 195);
+    height: 75px;
+    width: 300px;
+    font-size: 35px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.text2 {
+    background-color: white;
+    display: flex;
+    width: 300px;
+    margin-left: 10px;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.card3 {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 30px;
+    flex-direction: column;
+}
+
+.image3 {
+    background-color: rgb(195, 195, 195);
+    height: 75px;
+    width: 300px;
+    font-size: 35px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    background-color: white;
+    display: flex;
+    width: 300px;
+    margin-left: 10px; 
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+}   
+
+.text3 {
+    background-color: white;
+    display: flex;
+    width: 300px;
+    margin-left: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.card4 {
+    display: flex;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.image4 {
+    background-color: rgb(195, 195, 195);
+    height: 170px;
+    width: 300px;
+    font-size: 35px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
