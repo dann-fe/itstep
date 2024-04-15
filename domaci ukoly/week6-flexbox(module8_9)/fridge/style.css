@@ -1,0 +1,27 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+}
+.food {
+    display: flex;
+    flex-wrap: wrap;
+}
+.foodelements {
+    border: 5px solid rgb(191, 189, 189);
+    padding: 20px;
+    width: fit-content;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.caption {
+    font-size: 20px;
+    text-align: center;
+}
+div {
+    margin-top: 20px;
+    margin-left: 550px;
+}

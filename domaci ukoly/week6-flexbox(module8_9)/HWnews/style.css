@@ -4,7 +4,7 @@
 
 main {
     background-color: rgb(168, 210, 224);
-    height: 1500px;
+    height: 1200px;
     display: flex;
     gap: 60px;
     margin-left: 200px;
@@ -84,7 +84,7 @@ main {
 
 .card4 {
     display: flex;
-    margin-top: -170px;
+    margin-top: -100px;
     margin-left: 20px;
     flex-direction: column;
 }
@@ -103,7 +103,7 @@ main {
 
  .card5 {
    display: flex;
-   margin-top: -300px;
+   margin-top: -230px;
    flex-direction: column;
  }
 
@@ -121,7 +121,7 @@ main {
 
 .card6 {
     display: flex;
-    margin-top: -220px;
+    margin-top: -150px;
     margin-right: 20px;
     flex-direction: column;
 }
@@ -140,7 +140,7 @@ main {
 
 .card7 {
     display: flex;
-    margin-top: -300px;
+    margin-top: -220px;
     margin-right: 20px;
     margin-left: 20px;
     flex-direction: column;
@@ -149,6 +149,43 @@ main {
 .image7 {
     background-color: rgb(195, 195, 195);
     height: 75px;
+    width: 300px;
+    font-size: 35px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.card8 {
+    display: flex;
+    margin-top: -330px;
+    margin-left: -20px;
+    flex-direction: column;
+}
+
+.image8 {
+    background-color: rgb(195, 195, 195);
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.card9 {
+    display: flex;
+    margin-top: -150px;
+    flex-direction: column;
+}
+
+.image9 {
+    background-color: rgb(195, 195, 195);
+    height: 100px;
     width: 300px;
     font-size: 35px;
     color: gray;
