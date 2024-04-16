@@ -1,0 +1,77 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(245, 245, 245);
+    margin: 20px;
+    padding-bottom: 150px;
+}
+
+.profile-container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1050px;
+}
+
+.profile-container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 500px;
+}
+
+.profile-picture1, .profile-picture2 {
+    display: flex;
+}
+
+.profile-text1, .profile-text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    margin: 20px;
+}
+
+.pink:first-child {
+    margin-top: 35px;
+}
+
+.pink {
+    background-color: rgb(244, 174, 185);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 500px;
+    text-align: left;
+    display: flex;
+}
+
+.blue {
+    background-color: rgb(173, 216, 230);
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 500px;
+    text-align: left;
+    display: flex; 
+}
+
