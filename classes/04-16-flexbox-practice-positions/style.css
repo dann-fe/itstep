@@ -49,6 +49,7 @@ footer {
 .inner-aside {
     background-color: #b65b80;
     padding: 40px 60px 40px 60px;
+    margin: 0;
 }
 
 
@@ -74,4 +75,11 @@ main {
 
 .left, .right {
     flex-grow: 1;
+}
+
+.inner-aside:first-child {
+    margin-bottom: 10px;
+}
+.inner-aside:last-child {
+    margin-bottom: 50px;
 }

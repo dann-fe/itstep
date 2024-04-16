@@ -4,193 +4,45 @@
 
 main {
     background-color: rgb(168, 210, 224);
-    height: 1200px;
     display: flex;
-    gap: 60px;
-    margin-left: 200px;
-    margin-right: 200px;
+    flex-direction: column;
+    /* height: 1500px;
+    width: 900px; */
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 1500px;
     flex-wrap: wrap;
 }
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+    margin: 10px;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9 {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(215, 215, 215);
+    color: gray;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+} 
 
 .title {
     background-color: white;
     display: flex;
-    width: 300px;
-    margin-left: 10px; 
-    padding-top: 10px;
-    padding-left: 20px;
-    box-sizing: border-box;
-    font-size: 20px;
+    width: 250px;
     font-weight: bold;
-} 
+    padding: 10px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
 
 .text {
+    display: flex;
     background-color: white;
-    display: flex;
-    width: 300px;
-    margin-left: 10px;
-    padding: 20px;
-    padding-top: 10px;
+    width: 250px;
+    padding: 10px;
     box-sizing: border-box;
-}
-
-.card1 {
-    display: flex;
-    margin-top: 10px;
-    margin-left: 20px;
-    flex-direction: column;   
-}
-
-.image1 {
-    background-color: rgb(195, 195, 195);
-    height: 100px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.card2 {
-    display: flex;
-    margin-top: 10px;
-    flex-direction: column;
-
-    
-}
-
-.image2 {
-    background-color: rgb(195, 195, 195);
-    height: 75px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.card3 {
-    display: flex;
-    margin-top: 10px;
-    margin-right: 20px;
-    flex-direction: column;
-}   
-
-.card4 {
-    display: flex;
-    margin-top: -100px;
-    margin-left: 20px;
-    flex-direction: column;
-}
-
-.image4 {
-    background-color: rgb(195, 195, 195);
-    height: 170px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-}
-
- .card5 {
-   display: flex;
-   margin-top: -230px;
-   flex-direction: column;
- }
-
-.image5 {
-    background-color: rgb(195, 195, 195);
-    height: 180px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-}
-
-.card6 {
-    display: flex;
-    margin-top: -150px;
-    margin-right: 20px;
-    flex-direction: column;
-}
-
-.image6 {
-    background-color: rgb(195, 195, 195);
-    height: 300px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-}
-
-.card7 {
-    display: flex;
-    margin-top: -220px;
-    margin-right: 20px;
-    margin-left: 20px;
-    flex-direction: column;
-}
-
-.image7 {
-    background-color: rgb(195, 195, 195);
-    height: 75px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-}
-
-.card8 {
-    display: flex;
-    margin-top: -330px;
-    margin-left: -20px;
-    flex-direction: column;
-}
-
-.image8 {
-    background-color: rgb(195, 195, 195);
-    height: 100px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-}
-
-.card9 {
-    display: flex;
-    margin-top: -150px;
-    flex-direction: column;
-}
-
-.image9 {
-    background-color: rgb(195, 195, 195);
-    height: 100px;
-    width: 300px;
-    font-size: 35px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
 }
