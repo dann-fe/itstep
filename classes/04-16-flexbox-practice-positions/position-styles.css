@@ -25,8 +25,8 @@
 }*/
 
  .zeleny {
-    position: relative;
-    top: 100px;
+    position: sticky;
+    top: 500px;
     left: 100px;
 } 
 
@@ -34,8 +34,8 @@
     background-color: orange;
     width: 40px;
     height: 40px;
-    position: absolute;
-    right: 100px;
+    position: relative;
+    left: 300px;
     bottom: 100px;
 }
 

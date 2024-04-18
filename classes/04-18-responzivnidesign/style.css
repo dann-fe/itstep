@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.obdelnik {
+    width: 700px;
+    border: 30px solid black;
+    background-color: rgb(255, 9, 9);
+}
+
+.maly {
+    width: 70%; 
+    height: 200px;
+    border: 30px solid rgb(0, 8, 251);
+    background-color: rgb(47, 8, 8);
+}
