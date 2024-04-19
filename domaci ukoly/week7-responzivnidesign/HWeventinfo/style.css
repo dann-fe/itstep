@@ -1,0 +1,109 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(1, 66, 66);
+    margin: 5px 100px 5px 100px;
+    padding-bottom: 120px;
+}
+
+.pathway {
+    color: rgb(109, 125, 124);
+    font-weight: 500;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    max-width: 500px;
+    
+}
+
+.user {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+img {
+    /* height: 4%;
+    width: 4%; */
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.graysection {
+    color: rgb(109, 125, 124);
+    font-size: 12px;
+}
+
+.whitesection {
+    color: white;
+    font-size: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    main {
+        background-color: rgb(1, 66, 66);
+        margin: 5px 50px 5px 50px;
+        padding-bottom: 120px;
+    }
+    
+    .pathway {
+        color: rgb(109, 125, 124);
+        font-weight: 500;
+        padding-top: 30px;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    
+    .title {
+        color: white;
+        font-size: 50px;
+        margin-left: 40px;
+        margin-top: 20px;
+        max-width: 500px;
+        
+    }
+    
+    .user {
+        display: flex;
+        gap: 20px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    
+    img {
+        height: 25%;
+        width: 25%;
+    }
+    
+    .graysection {
+        color: rgb(109, 125, 124);
+        font-size: 12px;
+    }
+    
+    .whitesection {
+        color: rgb(254, 253, 253);
+        font-size: 15px;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+}
