@@ -8,10 +8,28 @@
 </head>
 <body>
     <main>
+        <section>
         <h2>CREDIT CARD DETAILS</h2>
-    <form action="get">
-        
-    </form>
+        <form action="result.html" method="get" class="form1">
+            <label for="cardnumber">Card Number</label>
+            <input type="text" name="cardnumber" id="cardnumber" placeholder="1234 5678 9012 3456">
+            <label for="name">Name On Card</label>
+            <input type="text" name="name" id="name" placeholder="Name Surname">
+        </form>
+        <form action="result.html" method="get" class="form2">
+            <label for="month">Expiry Date</label>
+            <label for="year"></label>
+            <div class="expirycontainer">
+            <input type="text" name="expirydate" id="month" placeholder="07">
+            <input type="text" name="expirydate" id="year" placeholder="2024">
+            <div class="cvvcontainer">
+            <label for="cvv">CVV / CVN</label>
+            <input type="text" name="cvv" id="cvv" placeholder="***">
+            </div>
+            </div>
+
+        </form>
+    </section>
     </main>
 </body>
 </html>
