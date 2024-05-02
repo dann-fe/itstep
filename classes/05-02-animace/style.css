@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+/* používám CSS proměnné, neděste se toho, brát je nebudeme */
+:root {
+    --width: 200px;
+}
+
+.tvar {
+    width: var(--width);
+    margin: 70px;
+}
+
+.kolecko {
+    height: var(--width);
+    border-radius: 50%;
+    background-color: #ff6500;
+}
+
+/*
+barvy:
+#C40C0C
+#FF6500
+#FF8A08
+#FFC100
+
+#640D6B
+#B51B75
+*/
+
+.kolecko {
+   /* animation: to-right;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+    animation-direction: alternate; 
+    animation-fill-mode: forwards; zustane tam kde skoncilo
+    animation-delay: 1s;*/
+    animation: discoball 1.5s ease 0s infinite alternate forwards; /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+
+
+}
+
+@keyframes discoball{
+    0% /*nebo i from*/ {
+         transform: translate(0, 0); 
+        background-color: blue;
+    }
+
+    20% {
+        transform: translate(400px);
+    }
+
+    35% {
+         transform: translate(300px, 0); 
+        background-color: red;
+    }
+
+    55% {
+        transform: translate(400px, 125px); 
+       background-color: rgb(212, 0, 255);
+   }
+
+   80% {
+    translate: (600px, 400px);
+   }
+
+   100% {
+    translate: (800px, 800px);
+    background-color: yellow;
+   }
+}
