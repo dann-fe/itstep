@@ -53,3 +53,12 @@ p {
 .heading {
     margin-top: 40px;
 }
+
+img {
+    -webkit-user-drag: none; /* Prevents image dragging in WebKit browsers */
+    user-select: none; /* Prevents text selection */
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
