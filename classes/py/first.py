@@ -1,0 +1,5 @@
+print("test")
+print(10 + 10)
+print (10 * 10)
+print(10 ** 2)
+a = print(10 / 7)
