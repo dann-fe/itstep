@@ -6,3 +6,4 @@ def password_long_enough():
     else:
        print("your password isn't long enough") 
 
+password_long_enough()
