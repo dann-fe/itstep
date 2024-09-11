@@ -7,6 +7,7 @@ ceny_potravin = {
 
 ceny_potravin["milk"] = 25
 
-min_item = min(ceny_potravin)
+min_item = float("inf")
 
-print(min_item)
+for i in ceny_potravin:
+    print(i)
