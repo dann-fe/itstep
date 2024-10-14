@@ -1,0 +1,15 @@
+1. base containing information
+2. has a structure
+
+3 types:
+    a) db server (as hardware, pc)
+    b) db engine (mysql, postgresql, oracle, sql server. mongodb) as a software
+    c) db as data
+
+basic data operations:
+    CRUD OPERATIONS - create retrieve update deletes:
+
+basic data objects:
+    table
+    column
+    row
